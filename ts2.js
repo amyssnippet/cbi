@@ -1,4 +1,4 @@
-class TextScript {
+export class TextScript {
   constructor(element, options) {
     this.element = element;
     this.prefix = options.prefix || ''; // Fixed text prefix
